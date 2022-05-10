@@ -24,6 +24,7 @@ echo "compressing image ..."
 
 xz zepto.img
 
+mkdir builds || true
 mv zepto.img.xz builds/zeptolinux-"$ZEPTO_VER".img.xz
 
 echo "DONE!"
