@@ -49,7 +49,7 @@ mkdir root/bin root/dev root/proc
 
 if [[ ! -f "./toybox" ]]
 then
-  wget "https://landley.net/toybox/bin/toybox-x86_64" -O toybox # TODO: host or include because landley doesn't include version information into the url :(
+  wget "https://landley.net/toybox/downloads/binaries/0.8.8/toybox-x86_64" -O toybox
 fi
 
 cp toybox root/bin/
